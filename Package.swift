@@ -3,8 +3,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "Ottu",
-    products: [.library(name: "Ottu",targets: ["Ottu"])],
+    name: "ApplePayButton",
+    products: [.library(name: "ApplePayButton",targets: ["ApplePayButton"])],
     dependencies: [],
-    targets: [.binaryTarget(name: "Ottu",path: "Source/Ottu.xcframework")]
+    targets: [.binaryTarget(name: "ApplePayButton",path: "Source/*")]
 )
