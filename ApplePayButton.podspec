@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name         = "ApplePayButton"
-    s.version      = "1.0.1"
+    s.version      = "1.0.2"
     s.summary      = "The ApplePayButton iOS SDK makes it quick and easy to build an Apple Pay button in your iOS app."
     s.description  = <<-DESC
 The ApplePayButton iOS SDK makes it quick and easy to build an Apple Pay button in your iOS app.
@@ -20,7 +20,7 @@ The ApplePayButton iOS SDK makes it quick and easy to build an Apple Pay button 
     s.resource_bundles = {
          'AppleButton' => ['Source/apple_button.png','Source/stc_button.png']
     }
-s.source_files = "Source/ApplePayButton.swift"
+s.source_files = "Source/*.swift"
 
     s.platform = :ios
     s.swift_version = "5.0"
