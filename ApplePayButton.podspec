@@ -18,7 +18,7 @@ The ApplePayButton iOS SDK makes it quick and easy to build an Apple Pay button 
     s.author             = { "Maninder" => "er.maninderbindra@gmail.com" }
     s.source       = { :git => "https://github.com/Maninder1991/ApplePayButton.git", :tag => "#{s.version}" }
     s.resource_bundles = {
-         'AppleButton' => ['Source/apple_button.png']
+         'AppleButton' => ['Source/apple_button.png','Source/stc_button.png']
     }
 s.source_files = "Source/ApplePayButton.swift"
 
