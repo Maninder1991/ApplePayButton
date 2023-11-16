@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name         = "ApplePayButton"
-    s.version      = "1.0.2"
+    s.version      = "1.0.3"
     s.summary      = "The ApplePayButton iOS SDK makes it quick and easy to build an Apple Pay button in your iOS app."
     s.description  = <<-DESC
 The ApplePayButton iOS SDK makes it quick and easy to build an Apple Pay button in your iOS app.
